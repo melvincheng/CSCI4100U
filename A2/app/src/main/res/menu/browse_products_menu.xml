@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BrowseProductsActivity">
+    <item
+        android:id="@+id/action_addProduct"
+        android:title="@string/addProduct_menuItem"
+        android:orderInCategory="100"
+        android:onClick="addProduct" />
+</menu>

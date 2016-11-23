@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GalacticOverlord</string>
+    <string name="score_label">Score:</string>
+    <string name="game_over">Game Over!</string>
+</resources>

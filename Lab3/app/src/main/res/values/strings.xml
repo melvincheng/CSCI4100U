@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_about">About</string>
+    <string name="lbl_greeting">Greeting message</string>
+    <string name="btn_finish">Finish</string>
+    <string name="lbl_about">This application is my solution for lab #3 for CSCI 4100u. Copyright Melvin Cheng</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_password">Password</string>
+    <string name="login_success">Login successful</string>
+    <string name="login_fail">Login failed</string>
+    <string name="login_blankUsername">No username entered</string>
+    <string name="login_blankPassword">No password entered</string>
+</resources>

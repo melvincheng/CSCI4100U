@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment 1 - Melvin Cheng - 100526486</string>
+    <string name="quiz_btn">"Start Quiz!"</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="summary_yes_lbl">Yes:</string>
+    <string name="summary_no_lbl">No:</string>
+    <string name="summary_lbl">Summary</string>
+    <string name="back_btn">Back</string>
+</resources>

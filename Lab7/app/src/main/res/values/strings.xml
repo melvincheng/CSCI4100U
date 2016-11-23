@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="studentId_lbl">SID</string>
+    <string name="courseComponent_lbl">Course Component</string>
+    <string name="mark_lbl">Mark</string>
+    <string name="add_btn">Add</string>
+    <string name="delete_btn">Delete</string>
+</resources>

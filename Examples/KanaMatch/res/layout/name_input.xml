@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textAppearance="@style/GeneralStyle"
+            android:text="@string/enterYourName"
+            />
+
+        <EditText
+            android:id="@+id/txtHighScoreName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:hint="@string/yourName"
+            android:textAppearance="@style/GeneralStyle"
+            android:textColor="@android:color/holo_blue_bright" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnAcceptName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtHighScoreName"
+            android:background="@drawable/button_background"
+            android:onClick="returnName"
+            android:text="@string/accept"
+            android:textAppearance="@style/ButtonStyle"
+            android:textColor="@android:color/holo_blue_bright" />
+
+    </RelativeLayout>

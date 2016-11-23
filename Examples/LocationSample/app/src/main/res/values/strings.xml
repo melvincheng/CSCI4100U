@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Location Sample</string>
+
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+
+    <string name="title_activity_maps">Showing Map</string>
+</resources>

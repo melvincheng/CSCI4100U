@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="charging">Charging</string>
+    <string name="full">Full</string>
+    <string name="discharging">Discharging</string>
+    <string name="notCharging">Not charging</string>
+    <string name="good">Healthy</string>
+    <string name="cold">Cold</string>
+    <string name="overheat">Overheating</string>
+    <string name="notPlugged">Not plugged in</string>
+    <string name="usbPlugged">Plugged into USB</string>
+    <string name="acPlugged">Plugged into AC outlet</string>
+    <string name="dead">Dead</string>
+    <string name="overV">Over voltage</string>
+    <string name="batteryStatusTitle">Battery status</string>
+    <string name="batteryHealthTitle">Battery health</string>
+    <string name="batteryPluggedTitle">Plugged in</string>
+    <string name="batteryStatusLittleMessage">Battery changed</string>
+    <string name="temperature">Battery temperature: </string>
+</resources>

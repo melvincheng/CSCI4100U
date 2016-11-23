@@ -1,0 +1,24 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content" 
+                  android:background="@android:color/black"
+                  android:orientation="vertical">
+        
+        <TextView android:layout_width="wrap_content"
+            	  android:layout_height="match_parent" 
+            	  android:id="@+id/lblScore" 
+            	  android:textAppearance="@style/GeneralStyle"
+            	  />
+         
+	    <TableLayout android:layout_width="match_parent"
+    	             android:layout_height="match_parent" 
+        	         android:id="@+id/lytGameBoardGrid"
+            	     android:background="@android:color/black">
+		</TableLayout>
+		
+ 	</LinearLayout>
+</ScrollView>

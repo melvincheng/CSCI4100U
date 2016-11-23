@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/lblHighScoreNameHeader"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/highScoreName"
+        android:textAppearance="@style/HighScoreHeaderStyle" />
+
+    <TextView
+        android:id="@+id/lblHighScoreDifficultyHeader"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/highScoreDifficulty"
+        android:textAppearance="@style/HighScoreHeaderStyle" />
+
+    <TextView
+        android:id="@+id/lblHighScoreScoreHeader"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/highScoreScore"
+        android:textAppearance="@style/HighScoreHeaderStyle" />
+
+</LinearLayout>

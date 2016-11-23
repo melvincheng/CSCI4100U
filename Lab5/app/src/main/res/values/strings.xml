@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="about_us_lbl">About us</string>
+    <string name="about_us_txt">This company strives to be the best. Like no other company ever was. This is for lab 5.</string>
+    <string name="show_license_lbl"><u>License Agreement</u></string>
+    <string name="back_btn">Back</string>
+    <string name="not_load_lbl">Error loading page</string>
+    <string name="company_lbl">Some company</string>
+</resources>

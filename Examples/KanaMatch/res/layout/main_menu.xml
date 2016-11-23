@@ -1,0 +1,42 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+    
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content" 
+                  android:gravity="center"
+                  android:background="@android:color/black"
+                  android:orientation="vertical"
+                  android:padding="20dp">
+
+        <Button android:id="@+id/btnPlayGame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/ButtonStyle"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/holo_blue_bright"
+                android:onClick="startGame"
+                android:text="@string/playGame" />
+                
+        <Button android:id="@+id/btnPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/ButtonStyle"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/holo_blue_bright"
+                android:onClick="showPreferences"
+                android:text="@string/preferences" />
+        
+        <Button android:id="@+id/btnHighScores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/ButtonStyle"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/holo_blue_bright"
+                android:onClick="showHighScores"
+                android:text="@string/highScores" />
+        
+   	</LinearLayout>
+</ScrollView>
+                  

@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblTextViewL" />
+
+    <EditText android:text="@string/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEditTextL" />
+
+    <CheckBox android:text="@string/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbxCheckboxL" />
+
+    <Spinner android:text="@string/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstSpinnerL" />
+
+    <Button android:text="@string/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBackL"
+        android:onClick="back" />
+
+</LinearLayout>

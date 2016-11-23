@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Midterm_MelvinCheng</string>
+    <string name="address_lbl">Address</string>
+    <string name="municipality_lbl">Municipality</string>
+    <string name="latitude_lbl">Latitude</string>
+    <string name="longitude_lbl">Longitude</string>
+    <string name="numUnits_lbl">NumUnits</string>
+
+</resources>

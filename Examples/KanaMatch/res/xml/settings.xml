@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+                  >
+ 
+    <PreferenceCategory android:title="@string/pref_difficulty" >
+        <ListPreference
+            android:key="@string/prefDifficultyKey"
+            android:entries="@array/prefDifficulties"
+            android:summary="@string/pref_difficulty_summary"
+            android:entryValues="@array/prefDifficultyValues"
+            android:defaultValue="4"
+            android:title="@string/pref_difficulty" />
+    </PreferenceCategory>
+     
+    <PreferenceCategory android:title="@string/pref_game_style" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/prefAudioKey"
+            android:summary="@string/pref_play_audio_summary"
+            android:title="@string/pref_play_audio" >
+        </CheckBoxPreference>
+ 
+        <ListPreference
+            android:entries="@array/prefGameTypes"
+            android:entryValues="@array/prefGameTypeValues"
+            android:defaultValue="301"
+            android:key="@string/prefGameTypeKey"
+            android:summary="@string/pref_game_type_summary"
+            android:title="@string/pref_game_type" />
+
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

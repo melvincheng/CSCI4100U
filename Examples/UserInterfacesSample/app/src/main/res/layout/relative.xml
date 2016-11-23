@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <TextView android:text="@string/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblTextViewR" />
+
+    <EditText android:text="@string/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lblTextViewR"
+        android:layout_alignParentRight="true"
+        android:id="@+id/txtEditTextR" />
+
+    <CheckBox android:text="@string/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtEditTextR"
+        android:layout_alignParentRight="true"
+        android:id="@+id/cbxCheckboxR" />
+
+    <Spinner android:text="@string/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbxCheckboxR"
+        android:layout_alignParentRight="true"
+        android:id="@+id/lstSpinnerR" />
+
+    <Button android:text="@string/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBackR"
+        android:layout_below="@id/lstSpinnerR"
+        android:onClick="back" />
+
+</RelativeLayout>

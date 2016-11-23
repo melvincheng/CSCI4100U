@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment 2 - Melvin Cheng - 100526486</string>
+    <string name="next_btn">Next</string>
+    <string name="prev_btn">Previous</string>
+    <string name="delete_btn">Delete</string>
+    <string name="name_lbl">Name</string>
+    <string name="des_lbl">Description</string>
+    <string name="priceCad_lbl">Price(CAD)</string>
+    <string name="priceBit_lbl">Price(BitCoin)</string>
+    <string name="price_lbl">Price</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="addProduct_menuItem">Add product</string>
+</resources>

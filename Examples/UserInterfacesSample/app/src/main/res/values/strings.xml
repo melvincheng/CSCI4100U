@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">User Interfaces Sample</string>
+
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="grid_view">Grid View</string>
+    <string name="list_view">List View</string>
+
+    <string name="text_view">TextView</string>
+    <string name="edit_text">EditText</string>
+    <string name="back">Back</string>
+    <string name="checkbox">Checkbox</string>
+    <string name="spinner">Spinner</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

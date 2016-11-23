@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:text="Bob Smith"
+        />
+
+    <TextView
+        android:id="@+id/lblEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtName"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/email_label"
+        />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtName"
+        android:layout_toRightOf="@id/lblEmail"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:text="bsmith@aol.com"
+        />
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lblEmail"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:text="@string/phone_label"
+        />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtEmail"
+        android:layout_toRightOf="@id/lblPhone"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:text="555-1234"
+        />
+
+</RelativeLayout>

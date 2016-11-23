@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string-array name="hiragana">
+		<item>\u3041</item> <!-- a -->
+		<item>\u3043</item> <!-- i -->
+		<item>\u3045</item> <!-- u -->
+		<item>\u3047</item> <!-- e -->
+		<item>\u3049</item> <!-- o -->
+		<item>\u304B</item> <!-- ka -->
+		<item>\u304D</item> <!-- ki -->
+		<item>\u304F</item> <!-- ku -->
+		<item>\u3051</item> <!-- ke -->
+		<item>\u3053</item> <!-- ko -->
+		<item>\u3055</item> <!-- sa -->
+		<item>\u3057</item> <!-- shi -->
+		<item>\u3059</item> <!-- su -->
+		<item>\u305B</item> <!-- se -->
+		<item>\u305D</item> <!-- so -->
+		<item>\u305F</item> <!-- ta -->
+		<item>\u3061</item> <!-- chi -->
+		<item>\u3064</item> <!-- tsu -->
+		<item>\u3066</item> <!-- te -->
+		<item>\u3068</item> <!-- to -->
+		<item>\u306A</item> <!-- na -->
+		<item>\u306B</item> <!-- ni -->
+		<item>\u306C</item> <!-- nu -->
+		<item>\u306D</item> <!-- ne -->
+		<item>\u306E</item> <!-- no -->
+		<item>\u306F</item> <!-- ha -->
+		<item>\u3072</item> <!-- hi -->
+		<item>\u3075</item> <!-- fu -->
+		<item>\u3078</item> <!-- he -->
+		<item>\u307B</item> <!-- ho -->
+		<item>\u307E</item> <!-- ma -->
+		<item>\u307F</item> <!-- mi -->
+		<item>\u3080</item> <!-- mu -->
+		<item>\u3081</item> <!-- me -->
+		<item>\u3082</item> <!-- mo -->
+		
+		<item>\u3083</item> <!-- ya -->
+		<item>\u3085</item> <!-- yu -->
+		<item>\u3087</item> <!-- yo -->
+		<item>\u3089</item> <!-- ra -->
+		<item>\u308A</item> <!-- ri -->
+     	<item>\u308B</item> <!-- ru -->
+		<item>\u308C</item> <!-- re -->
+		<item>\u308D</item> <!-- ro -->
+		<item>\u308E</item> <!-- wa -->
+		<item>\u3090</item> <!-- wi -->
+		<item>\u3091</item> <!-- we -->
+		<item>\u3092</item> <!-- wo -->
+		<item>\u3093</item> <!-- n -->
+	</string-array>
+	<string-array name="romaji">
+		<item>a</item> <!-- a -->
+		<item>i</item> <!-- i -->
+		<item>u</item> <!-- u -->
+		<item>e</item> <!-- e -->
+		<item>o</item> <!-- o -->
+		<item>ka</item> <!-- ka -->
+		<item>ki</item> <!-- ki -->
+		<item>ku</item> <!-- ku -->
+		<item>ke</item> <!-- ke -->
+		<item>ko</item> <!-- ko -->
+		<item>sa</item> <!-- sa -->
+		<item>shi</item> <!-- shi -->
+		<item>su</item> <!-- su -->
+		<item>se</item> <!-- se -->
+		<item>so</item> <!-- so -->
+		<item>ta</item> <!-- ta -->
+		<item>chi</item> <!-- chi -->
+		<item>tsu</item> <!-- tsu -->
+		<item>te</item> <!-- te -->
+		<item>to</item> <!-- to -->
+		<item>na</item> <!-- na -->
+		<item>ni</item> <!-- ni -->
+		<item>nu</item> <!-- nu -->
+		<item>ne</item> <!-- ne -->
+		<item>no</item> <!-- no -->
+		<item>ha</item> <!-- ha -->
+		<item>hi</item> <!-- hi -->
+		<item>fu</item> <!-- fu -->
+		<item>he</item> <!-- he -->
+		<item>ho</item> <!-- ho -->
+		<item>ma</item> <!-- ma -->
+		<item>mi</item> <!-- mi -->
+		<item>mu</item> <!-- mu -->
+		<item>me</item> <!-- me -->
+		<item>mo</item> <!-- mo -->
+		<item>ya</item> <!-- ya -->
+		<item>yu</item> <!-- yu -->
+		<item>yo</item> <!-- yo -->
+		<item>ra</item> <!-- ra -->
+		<item>ri</item> <!-- ri -->
+     	<item>ru</item> <!-- ru -->
+		<item>re</item> <!-- re -->
+		<item>ro</item> <!-- ro -->
+		<item>wa</item> <!-- wa -->
+		<item>wi</item> <!-- wi -->
+		<item>we</item> <!-- we -->
+		<item>wo</item> <!-- wo -->
+		<item>n</item> <!-- n -->
+	</string-array>
+		
+	<string-array name="prefDifficulties">
+	    <item>Easy (4x4)</item>
+	    <item>Medium (6x6)</item>
+	    <item>Hard (8x8)</item>
+	</string-array>
+	<string-array name="prefDifficultyValues">
+	    <item>4</item>
+	    <item>6</item>
+	    <item>8</item>
+	</string-array>
+	<string-array name="prefGameTypes">
+	    <item>Match Kana with Kana</item>
+	    <item>Match Kana with Romaji</item>
+	</string-array>
+	<string-array name="prefGameTypeValues">
+	    <item>301</item>
+	    <item>302</item>
+	</string-array>
+</resources>

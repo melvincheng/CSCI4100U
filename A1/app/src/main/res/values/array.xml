@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions_num_lbl">
+        <item>Question 1:</item>
+        <item>Question 2:</item>
+        <item>Question 3:</item>
+        <item>Question 4:</item>
+        <item>Question 5:</item>
+    </string-array>
+
+    <string-array name="question_lbl">
+        <item>Does 1 + 1 equal to 2?</item>
+        <item>Are blue and red the same colour?</item>
+        <item>Are you in Canada?</item>
+        <item>Are you using Android?</item>
+        <item>Are you going to answer no?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,88 @@
+<resources>
+
+    <string name="app_name">Kana Match</string>
+    <string name="play_game">Play Game</string>
+    <string name="options">Options</string>
+    <string name="title_activity_main_menu">KanaMatch - Main Menu</string>
+    <string name="title_activity_play_game">KanaMatch - Play Game</string>
+    <string name="title_activity_high_scores">KanaMatch - High Scores</string>
+    <string name="title_activity_get_name">KanaMatch - Enter Name</string>
+    <string name="title_activity_preferences">KanaMatch - Options</string>
+    <string name="menu_settings">Options</string>
+    <string name="score_label">Score: </string>
+    <string name="playGame">Play Game</string>
+    <string name="playEasyGame">Play Game (Easy)</string>
+    <string name="playMediumGame">Play Game (Medium)</string>
+    <string name="playHardGame">Play Game (Hard)</string>
+    <string name="highScores">High Scores</string>
+    <string name="preferences">Options</string>
+    <string name="highScoreName">Name</string>
+    <string name="highScoreDifficulty">Difficulty</string>
+    <string name="highScoreScore">Score</string>
+    <string name="yourName">Your Name</string>
+    <string name="enterYourName">Enter your name:</string>
+    <string name="accept">Accept</string>
+    
+    <!-- 
+    <string name="hira_a">U+3041</string>
+    <string name="hira_i">U+3043</string>
+    <string name="hira_u">U+3047</string>
+    <string name="hira_e">U+3049</string>
+    <string name="hira_o">U+304B</string>
+    <string name="hira_ka">U+304B</string>
+    <string name="hira_ki">U+304D</string>
+    <string name="hira_ku">U+304F</string>
+    <string name="hira_ke">U+3051</string>
+    <string name="hira_ko">U+3053</string>
+    <string name="hira_sa">U+3055</string>
+    <string name="hira_shi">U+3057</string>
+    <string name="hira_su">U+3059</string>
+    <string name="hira_se">U+305B</string>
+    <string name="hira_so">U+305D</string>
+    <string name="hira_ta">U+305F</string>
+    <string name="hira_chi">U+3061</string>
+    <string name="hira_tsu">U+3064</string>
+    <string name="hira_te">U+3066</string>
+    <string name="hira_to">U+3068</string>
+    <string name="hira_na">U+306A</string>
+    <string name="hira_ni">U+306B</string>
+    <string name="hira_nu">U+306C</string>
+    <string name="hira_ne">U+306D</string>
+    <string name="hira_no">U+306E</string>
+    <string name="hira_ha">U+306F</string>
+    <string name="hira_hi">U+3072</string>
+    <string name="hira_fu">U+3075</string>
+    <string name="hira_he">U+3078</string>
+    <string name="hira_ho">U+307B</string>
+    <string name="hira_ma">U+307E</string>
+    <string name="hira_mi">U+307F</string>
+    <string name="hira_mu">U+3080</string>
+    <string name="hira_me">U+3081</string>
+    <string name="hira_mo">U+3082</string>
+    <string name="hira_ya">U+3083</string>
+    <string name="hira_yu">U+3085</string>
+    <string name="hira_yo">U+3087</string>
+    <string name="hira_ra">U+3089</string>
+    <string name="hira_ri">U+308A</string>
+    <string name="hira_ru">U+308B</string>
+    <string name="hira_re">U+308C</string>
+    <string name="hira_ro">U+308D</string>
+    <string name="hira_wa">U+308E</string>
+    <string name="hira_wi">U+3090</string>
+    <string name="hira_we">U+3091</string>
+    <string name="hira_wo">U+3092</string>
+    <string name="hira_n">U+3093</string>
+-->
+    <!--  Preferences strings -->
+    <string name="pref_difficulty">Game difficulty</string>
+    <string name="pref_difficulty_summary">How difficult do you want the game to be?  This option modifies the size of the game board.</string>
+    
+    <string name="pref_game_style">Game Style</string>
+    <string name="prefDifficultyKey">KanaMatch.Difficulty</string>
+    <string name="pref_play_audio">Play audio?</string>
+    <string name="pref_play_audio_summary">Should the game play an audio recording of the displayed kana?</string>
+    <string name="prefAudioKey">KanaMatch.PlayAudio</string>
+    <string name="pref_game_type">Game type</string>
+    <string name="pref_game_type_summary">What sort of game would you like to play?  Each game type has a difference learning objective.</string>
+    <string name="prefGameTypeKey">KanaMatch.GameType</string>
+</resources>

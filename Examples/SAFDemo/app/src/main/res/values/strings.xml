@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SAFDemo</string>
+    <string name="browse">Browse</string>
+    <string name="the_file_contents_go_here">The file contents go here</string>
+</resources>

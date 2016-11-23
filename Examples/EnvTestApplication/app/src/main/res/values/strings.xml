@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Look it up!</string>
+    <string name="lookItUp">Look it up</string>
+    <string name="definitionPlaceholder">Type in a word and click the button!</string>
+</resources>
